@@ -1,0 +1,24 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Footsteps : MonoBehaviour
+{
+    public AudioSource footstepsSound;
+
+    // WASD for enabling footstep sounds. If the buttons are not pressed, then there won't be a sound
+
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+                footstepsSound.enabled = true;
+
+        }
+        else
+        {
+            footstepsSound.enabled = false;
+
+        }
+    }
+}
