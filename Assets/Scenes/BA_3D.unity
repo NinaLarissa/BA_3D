@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 100
+  maxHealth: 200
   isDead: 0
   Respawn: 1
 --- !u!1 &672956324
@@ -1748,7 +1748,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5904e-41, y: 0, z: 0, w: 3e-45}
+  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 6.026e-42, w: 1.02e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2693,7 +2693,7 @@ PrefabInstance:
       objectReference: {fileID: 1005249724684624, guid: 3a7587609de5eea4a914a06bd641c62d, type: 3}
     - target: {fileID: 1619505362, guid: 7e7f2840eb6a6294fb9d04582dbf8079, type: 3}
       propertyPath: damageEnemy
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1619505362, guid: 7e7f2840eb6a6294fb9d04582dbf8079, type: 3}
       propertyPath: barrelLocation
@@ -6826,7 +6826,7 @@ MonoBehaviour:
   canAttack: 1
   chaseDistance: 2
   turnSpeed: 5
-  damageAmount: 15
+  damageAmount: 10
   attackTime: 2
   source: {fileID: 2928874852664543529}
   growlingSound: {fileID: 8300000, guid: 50e5f8f838bafd244875dc7ee4f118e8, type: 3}
@@ -9512,7 +9512,7 @@ MonoBehaviour:
   canAttack: 1
   chaseDistance: 2
   turnSpeed: 5
-  damageAmount: 15
+  damageAmount: 10
   attackTime: 2
   source: {fileID: 2984978285401856640}
   growlingSound: {fileID: 8300000, guid: f5d36771a81579d48b57d92f31082296, type: 3}

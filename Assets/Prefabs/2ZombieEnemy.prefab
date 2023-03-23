@@ -947,7 +947,7 @@ MonoBehaviour:
   canAttack: 1
   chaseDistance: 2
   turnSpeed: 5
-  damageAmount: 15
+  damageAmount: 10
   attackTime: 2
   source: {fileID: 2984978283800543369}
   growlingSound: {fileID: 8300000, guid: f5d36771a81579d48b57d92f31082296, type: 3}
